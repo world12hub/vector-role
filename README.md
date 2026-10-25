@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vector-role
 =========
 
@@ -125,3 +126,6 @@ License
 -------
 
 MIT
+=======
+# vector-role
+>>>>>>> 330ab21dfe50ee532e36f9a5fa54c25819bd1cb3
