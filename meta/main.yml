@@ -1,4 +1,6 @@
 galaxy_info:
+  role_name: vector_role
+  namespace: world12hub 
   author: Sergey Kanyugin
   description: Role for installation vector
   company: netology
