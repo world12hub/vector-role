@@ -1,7 +1,15 @@
 ---
 driver:
   name: docker
-
+lint: |
+  ansible-lint .
+platforms:
+  - name: oraclelinux-8
+    image: "oraclelinux:8"
+    pre_build_image: true
+  - name: ubuntu-latest
+    image: "ubuntu:latest" 
+    pre_build_image: true
 # Dependency management (download roles/collections)
 dependency:
   name: galaxy
